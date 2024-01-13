@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px black;
+}
+#logo {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #606EFF;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin-top: 50px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #020202;
+}
+header nav ul li a:hover {font-weight: 900;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    padding: 50px 0;
+}
+#valores {
+    background-image: url(./assets/configuração.gif);
+    background-repeat: no-repeat;
+    background-position: center
+}
+section .container p {
+    line-height: 25px;
+}
+#home {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+#titleprojetos {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.project-section {
+
+    position: relative;
+}
+.projects-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.project {
+    text-align: center;
+    flex: 0 0 100%;
+    display: none;
+}
+    .slide-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);}
+
+.prev-btn,
+.next-btn {
+    background-color: #606EFF;;
+    width: 40px ;
+        height: 130px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    background-color: #4565a0;
+}
+
+#imgprojeto{
+    height: 400px;
+    border-radius: 50px;
+    width: 50%;
+}
+@media (max-width:700px){
+    #imgprojeto{
+        height: 200px;
+        border-radius: 50px;
+        width: 70%;
+    }
+    .prev-btn,
+    .next-btn {
+        width: 40px ;
+        height: 130px;
+        background-color: rgb(76, 160, 175);
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #home {
+        flex-direction: column;
+    }
+    #imghome img {
+        margin-left: 10%;
+        width: 80%;
+    }
+    header {
+        flex-direction: column;
+    }
+    header nav ul li  {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    } 
+}
