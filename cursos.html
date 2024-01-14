@@ -1,1 +1,61 @@
-<h1>Development</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VmSoftware</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="cursos">
+        <h1 id="titlecusos">Conheça os Nossos Treinamentos</h1>
+        <div id="divcursos">
+            <div class="project-section">
+                <div class="projects-container">
+                    <div class="project" id="project1">
+                        <!-- Conteúdo do Projeto 1 -->
+                        <a href="#" target="_blank" ><img id="imgprojeto" src="assets/apexbet.png" alt="projeto bealtybook"/></a>
+                        <div id="info">
+                            <h2>Criando uma casa de apostas com javaScript</h2>
+                            <p style="color: red;">Embreve </p>
+                            <a href="#">Adquirir Treinamento</a>
+                        </div>
+                    </div>
+                    <div class="project" id="project4">
+                        <!-- Conteúdo do Projeto 3 -->
+                        <a href="https://pay.kiwify.com.br/DoJaBEO" target="_blank"><img id="imgprojeto" src="assets/node.png" alt="projeto bealtybook"/></a>
+                        <div id="info">
+                            <h2>Trilhando o Caminho da Programação com Node.js </h2>
+                            <p>
+                                Construa seu primeiro servidor web usando Node.js e Express
+                                Crie uma poderosa aplicação de backend com SQLite3
+                                Realize operações de banco de dados de forma eficiente com Knex.js
+                                Desenvolva habilidades práticas enquanto constrói um sistema de cadastro de pessoas 
+                            </p>
+                            <a href="https://pay.kiwify.com.br/DoJaBEO">Adquirir Treinamento</a>                            
+                        </div>
+                    </div>
+                    <!-- Adicione mais projetos conforme necessário -->
+                </div>
+                <div class="slide-buttons">
+                    <button class="prev-btn" onclick="changeProject(-1)">&#10094;</button>
+                    <button class="next-btn" onclick="changeProject(1)"> &#10095;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+    <footer>
+        <div  class="container">
+            <p>Todos os direitos reservados &copy; 2023 &#10094;VmSoftware&#10095;.</p>
+        </div>
+    </footer>
+</body>
+</html>

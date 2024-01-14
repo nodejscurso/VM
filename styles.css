@@ -211,3 +211,23 @@ footer p {
         margin-right: 20px;
     }
 }
+#titlecusos {
+    text-align: center;
+    margin-bottom: 60px;
+}
+#cursos img {
+    height: 500px;
+    width: 80%;
+}
+#info {
+    width: 80%;
+    margin-left: 10%;
+}
+#info p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+#info  a {
+    font-weight: 900;
+}
