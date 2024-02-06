@@ -192,8 +192,7 @@ footer p {
     }
     #about {
         flex-direction: column;
-    }
-    
+    }    
     .prev-btn,
     .next-btn {
         width: 40px ;
@@ -236,5 +235,6 @@ footer p {
         height: 450px;
         width: 80%;
     }
+    
 
 }
