@@ -30,7 +30,9 @@ nav ul li {
     
 }
 nav ul li a {
-    font-size: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
     color: white;
@@ -92,6 +94,9 @@ h1 {
     width: 300px;
 }
 @media (max-width: 750px) {
+    header {
+        height: 190px;
+    }
     body {
         background: linear-gradient(to right,  #020202, #b81f1f);
     }
@@ -166,6 +171,6 @@ h1 {
 }
 @media (max-width: 750px){
     #txtCompra{
-        margin-top: -100px;
+        margin-top: -300px;
     }
 }
