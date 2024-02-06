@@ -22,7 +22,6 @@ nav ul {
     
 }
 nav ul li {
-    justify-content: space-between;
     display:  flex;
     flex-direction: row;
     list-style: none;
@@ -31,7 +30,6 @@ nav ul li {
     
 }
 nav ul li a {
-    margin-right: 20px;
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
